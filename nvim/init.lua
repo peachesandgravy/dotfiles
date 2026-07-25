@@ -1,1 +1,0 @@
-/Users/olivia/.config/nvim/init.lua
