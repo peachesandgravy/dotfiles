@@ -1,0 +1,15 @@
+#!/bin/zsh
+
+# colourize
+alias ls="ls --color=auto"
+alias grep="grep --color=auto"
+
+# universal
+alias ll="ls -al"
+alias lazyrc="nvim ~/.config/nvim/lua/config/lazy.lua"
+alias specrc="nvim ~/.config/nvim/lua/plugins/spec.lua"
+
+# macos only
+alias resetdock="defaults delete com.apple.dock; killall Dock"
+alias unrar="tar -xf" # comment on linux or unrar will not work
+alias lsblk="diskutil list" # comment on linux or lsblk will not work
