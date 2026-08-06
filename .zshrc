@@ -16,12 +16,15 @@ _comp_options+=(globdots)
 HISTFILE=~/.zhistory
 HISTSIZE=10000
 
+# enable vi mode
+bindkey -v
+
 # source aliases
 source ~/.zaliases
 
 # source plugins (macos)
-#
-# syntax highlighting
 source /opt/homebrew/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-autopair/autopair.zsh
 
 # source plugins (linux)
