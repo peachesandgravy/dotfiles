@@ -1,4 +1,4 @@
-# #!/bin/zsh
+#!/bin/zsh
 
 # prompt
 autoload -U colors && colors
@@ -19,6 +19,10 @@ HISTSIZE=10000
 # enable vi mode
 bindkey -v
 
+# options
+setopt autocd
+setopt correct
+
 # source aliases
 source ~/.zaliases
 
@@ -28,3 +32,6 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-autopair/autopair.zsh
 
 # source plugins (linux)
+# source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+# source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
+# source /usr/share/zsh/plugins/zsh-autopair/autopair.zsh
