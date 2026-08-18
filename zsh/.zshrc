@@ -19,6 +19,25 @@ HISTSIZE=10000
 # enable vi mode
 bindkey -v
 
+function zle-keymap-select {
+  if [[ $KEYMAP == vicmd ]]; then
+    print -n -- $'\e[1 q'
+  else
+    print -n -- $'\e[5 q'
+  fi
+}
+zle -N zle-keymap-select
+
+function zle-line-init {
+  print -n -- $'\e[5 q'
+}
+zle -N zle-line-init
+
+function zle-line-finish {
+  print -n -- $'\e[5 q'
+}
+zle -N zle-line-finish
+
 # options
 setopt autocd
 setopt correct

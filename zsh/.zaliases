@@ -7,9 +7,12 @@ alias grep="grep --color=auto"
 # universal
 alias ll="ls -al"
 alias ff="fastfetch"
-alias lazyrc="nvim ~/.config/nvim/lua/config/lazy.lua"
-alias specrc="nvim ~/.config/nvim/lua/plugins/spec.lua"
-alias kittyrc="nvim ~/.config/kitty/kitty.conf"
+alias shrc="$EDITOR ~/.zshrc"
+alias aliasrc="$EDITOR ~/.zaliases"
+alias lazyrc="$EDITOR ~/.config/nvim/lua/config/lazy.lua"
+alias specrc="$EDITOR ~/.config/nvim/lua/plugins/spec.lua"
+alias kittyrc="$EDITOR ~/.config/kitty/kitty.conf"
+alias yac='open /Applications/YACReader.app'
 
 # macos only
 alias resetdock="defaults delete com.apple.dock; killall Dock"
