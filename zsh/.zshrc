@@ -1,42 +1,41 @@
 #!/bin/zsh
 
+# this file heavily plagarizes Luke Smith's .zshrc
+
 # prompt
 autoload -U colors && colors
 PS1="%B%{$fg[green]%}%n%{$fg[white]%}@%{$fg[green]%}%m %{$fg[magenta]%}%1~ %{$reset_color%}%#%b "
 
-# autocompletion
-autoload -U compinit
-zstyle ':completion:*' menu select
-zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
-zmodload zsh/complist
-compinit
-_comp_options+=(globdots)
+# source completion settings
+source ~/.zcompletion
 
 # history
 HISTFILE=~/.zhistory
-HISTSIZE=10000
+HISTSIZE=10000000
 
 # enable vi mode
 bindkey -v
+export KEYTIMEOUT=1
 
-function zle-keymap-select {
-  if [[ $KEYMAP == vicmd ]]; then
-    print -n -- $'\e[1 q'
-  else
-    print -n -- $'\e[5 q'
-  fi
+# change cursor shape based on vi mode
+function zle-keymap-select () {
+  case $KEYMAP in
+    vicmd) echo -ne '\e[1 q';;
+    viins|main) echo -ne '\e[5 q';;
+  esac
 }
 zle -N zle-keymap-select
-
-function zle-line-init {
-  print -n -- $'\e[5 q'
+zle-line-init() {
+  zle -K viins
+  echo -ne '\e[5 q'
 }
 zle -N zle-line-init
+echo -ne '\e[5 q'
+prexec() { echo -ne '\e[5 q' ;}
 
-function zle-line-finish {
-  print -n -- $'\e[5 q'
-}
-zle -N zle-line-finish
+# keybinds
+bindkey -s '^f' '^ucd "$(dirname "$(fzf)")"\n'
+bindkey '^[[P' delete-char
 
 # options
 setopt autocd
@@ -46,7 +45,8 @@ setopt correct
 source ~/.zaliases
 
 # source plugins (macos)
-source /opt/homebrew/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+# source /opt/homebrew/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-autopair/autopair.zsh
 

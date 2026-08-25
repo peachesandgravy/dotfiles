@@ -1,18 +1,41 @@
 #!/bin/zsh
 
-# colourize
-alias ls="ls --color=auto"
-alias grep="grep --color=auto"
+alias iterm="open -a /Applications/iTerm.app"
 
-# universal
-alias ll="ls -al"
-alias ff="fastfetch"
-alias shrc="$EDITOR ~/.zshrc"
-alias aliasrc="$EDITOR ~/.zaliases"
-alias lazyrc="$EDITOR ~/.config/nvim/lua/config/lazy.lua"
-alias specrc="$EDITOR ~/.config/nvim/lua/plugins/spec.lua"
-alias yac='open /Applications/YACReader.app'
+# verbosity
+alias \
+  cp="cp -iv" \
+  mv="mv -iv" \
+  rm="rm -vI" \
+  bc="bc -ql" \
+  rsync="rsync -vrPlu" \
+  mkd-"mkdir -pv"
+
+# colours
+alias \
+  ls="ls -hG" \
+  grep="grep --color=auto" \
+  diff="dff --color=auto" \
+  ffmpeg="ffmpeg -hide_banner"
+
+# shortcuts
+alias \
+  ll="ls -al" \
+  ff="fastfetch" \
+  ka="killall" \
+  e='$EDITOR' \
+  v='$EDITOR' \
+  b="brew" \
+  python="python3" \
+  wttr="curl wttr.in"
+
+# launch graphical programs from the command line
+alias \
+  skim="open -a /Applications/Skim.app" \
+  yac="open -a /Applications/YACReader.app"
 
 # macos only
 alias resetdock="defaults delete com.apple.dock; killall Dock"
+alias unrar="tar -xf" # comment on linux or unrar will not work
+alias lsblk="diskutil list" # comment on linux or lsblk will not work
 alias htop="sudo htop"

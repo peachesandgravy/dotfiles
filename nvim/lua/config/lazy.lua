@@ -33,9 +33,15 @@ vim.o.smartindent = true
 vim.o.title = true
 vim.o.termguicolors = true
 vim.o.showmode = false
-vim.o.wrap = true
+vim.o.wrap = false
 vim.o.clipboard = "unnamedplus"
 vim.o.cursorline = true
+vim.opt.showtabline = 1
+
+vim.opt.spell = true
+vim.opt.spelllang = { "en", "fr" }
+
+vim.opt.completeopt = { "menuone", "noselect", "popup" }
 
 -- Setup lazy.nvim
 require("lazy").setup({
@@ -45,18 +51,21 @@ require("lazy").setup({
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
-  install = { colorscheme = { "habamax" } },
+  install = { colorscheme = { "catppuccin" } },
   -- automatically check for plugin updates
   checker = { enabled = true },
 })
 
+require('mini.icons').setup()
+MiniIcons.mock_nvim_web_devicons()
+
 require("catppuccin").setup({
-  flavour = "auto", -- latte, frappe, macchiato, mocha
+  flavour = "mocha", -- latte, frappe, macchiato, mocha
   background = { -- :h background
     light = "latte",
     dark = "mocha",
   },
-  transparent_background = true, -- disables setting the background color.
+  transparent_background = false, -- disables setting the background color.
   float = {
     transparent = false, -- enable transparent floating windows
     solid = false, -- use solid styling for floating windows, see |winborder|
@@ -120,18 +129,18 @@ require("catppuccin").setup({
   },
 })
 
--- setup must be called before loading
+-- Setup must be called before loading
 vim.cmd.colorscheme "catppuccin-nvim"
 
 -- Setup lualine
 require('lualine').setup {
   options = {
-    icons_enabled = false,
+    icons_enabled = true, colored = true,
     theme = 'auto',
-    --component_separators = { left = '', right = ''},
+    component_separators = { left = '', right = ''},
     section_separators = { left = '', right = ''},
-    component_separators = { left = '|', right = '|'},
-    -- section_separators = { left = '', right = ''},
+    --component_separators = { left = '|', right = '|' },
+    --section_separators = { left = ' ', right = ' ' },
     disabled_filetypes = {
       statusline = {},
       winbar = {},
@@ -164,7 +173,6 @@ require('lualine').setup {
     lualine_b = {'branch', 'diff', 'diagnostics'},
     lualine_c = {'filename'},
     lualine_x = {'encoding', 'fileformat', 'filetype'},
-    --    lualine_x = {'filetype'},
     lualine_y = {'progress'},
     lualine_z = {'location'}
   },
@@ -181,3 +189,32 @@ require('lualine').setup {
   inactive_winbar = {},
   extensions = {}
 }
+
+-- fzf
+require("fzf-lua").setup()
+vim.keymap.set('n', '<C-p>', function() require('fzf-lua').files() end, { desc = 'Fzf-lua: Find files' })
+
+
+-- LaTeX
+vim.g.vimtex_compiler_method = 'latexmk'
+vim.g.vimtex_compiler_latexmk = {
+  continuous = 1,
+  options = {
+    '-shell-escape',
+    '-verbose',
+    '-file-line-error',
+    '-synctex=1',
+    'interaction=nonstopmode',
+  },
+}
+
+vim.lsp.config('texlab', {}) 
+
+vim.lsp.enable('texlab')
+
+vim.g.vimtex_quickfix_mode = 0
+vim.g.tex_flavor = 'latex'
+
+vim.opt.foldmethod = 'expr'
+vim.opt.foldexpr = 'nvim_treesitter#folderxpr()'
+vim.opt.foldenable = false
