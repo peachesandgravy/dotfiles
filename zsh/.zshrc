@@ -4,7 +4,14 @@
 
 # prompt
 autoload -U colors && colors
-PS1="%B%{$fg[green]%}%n%{$fg[white]%}@%{$fg[green]%}%m %{$fg[magenta]%}%1~ %{$reset_color%}%#%b "
+
+setopt PROMPT_SUBST
+
+fish_pwd() {
+  echo "${PWD/#$HOME/~}" | sed -E 's|([^/])[^/]*/|\1/|g'
+}
+
+PS1="%B%{$fg[green]%}%n%{$fg[white]%}@%{$fg[green]%}%m: %{$fg[magenta]%}\$(fish_pwd) %{$reset_color%}%#%b "
 
 # source completion settings
 source ~/.zcompletion
@@ -44,13 +51,12 @@ setopt correct
 # source aliases
 source ~/.zaliases
 
-# source plugins (macos)
-# source /opt/homebrew/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source zsh-syntax-highlighting and settings 
 source /opt/homebrew/share/zsh-autopair/autopair.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 
 # source plugins (linux)
-# source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
-# source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 # source /usr/share/zsh/plugins/zsh-autopair/autopair.zsh
+# source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
+# source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
