@@ -1,7 +1,5 @@
 #!/bin/zsh
 
-alias iterm="open -a /Applications/iTerm.app"
-
 # verbosity
 alias \
   cp="cp -iv" \
@@ -21,7 +19,7 @@ alias \
 # shortcuts
 alias \
   ll="ls -al" \
-  ff="fastfetch" \
+  ff="fastfetch --logo macOS2_small" \
   ka="killall" \
   e='$EDITOR' \
   v='$EDITOR' \

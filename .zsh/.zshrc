@@ -14,7 +14,7 @@ fish_pwd() {
 PS1="%B%{$fg[green]%}%n%{$fg[white]%}@%{$fg[green]%}%m: %{$fg[magenta]%}\$(fish_pwd) %{$reset_color%}%#%b "
 
 # source completion settings
-source ~/.zcompletion
+source ~/.zsh/.zcompletion
 
 # history
 HISTFILE=~/.zhistory
@@ -49,7 +49,7 @@ setopt autocd
 setopt correct
 
 # source aliases
-source ~/.zaliases
+source ~/.zsh/.zaliases
 
 # source zsh-syntax-highlighting and settings 
 source /opt/homebrew/share/zsh-autopair/autopair.zsh

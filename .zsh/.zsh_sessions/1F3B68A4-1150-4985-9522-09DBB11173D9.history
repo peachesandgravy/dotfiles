@@ -1,0 +1,1001 @@
+brew remove --zap iina
+brew install utm
+cd Downloads
+cd Downloads
+curl -O -O https://fedoraproject.org/fedora.{pgp,gpg}
+htop
+sudo htop
+cd Downloads
+yt-dlp https://hanime.tv/videos/hentai/gakuen-chijoku-no-zushiki-1
+yt-dlp "https://player.hanime.tv/fb770114-c961-4b1a-bec9-18018108c704"
+brew search surge
+brew search vital
+htop
+brew install quake
+brew search quake
+brew install steamcmd
+steamcmd
+steamcmd
+sudo cot /etc/hosts
+sudo cot /etc/hosts
+sudo nvim /etc/hosts
+sudo nvim /etc/hosts
+brew remove --zap utm
+brew install thunderbird
+htop
+brew install figma
+brew remvove --zap thunderbird
+brew remove --zap thunderbird
+brew cleanup
+brew remove --zap figma
+brew cleanup
+brew update && brew upgrade
+brew clean --prune=all
+brew cleanup --prune=all
+clear
+brew install figma
+brew update && brew upgrade
+htop
+brew install bitwig-studio
+brew remove --zap bitwig-studio
+brew install bitwig-studio
+brew install firefox
+brew remove --zap firefox
+htop
+htop
+htop
+htop
+htop
+htop
+htop
+brew install notion
+brew remove --zap notion
+clear
+htop
+sudo nvim /etc/hosts
+caffeinate -d
+brew install firefox
+htop
+htop
+brew remove --zap font-mononoki
+brew remove --zap font-terminus
+clear
+htop
+htop
+htop
+cot /etc/hosts
+brew install zen
+brew remove zen
+brew install utm
+htop
+brew update && brew upgrade
+mkdir ~/Documents/Personal/Projects/CV
+htop
+diskutil list
+diskutil erasedisk /dev/disk4
+diskutil erasedisk -APFS /dev/disk4
+diskutil erasedisk APFS "SD Card" /dev/disk4
+brew remove --zap google-chrome
+brew cleanup
+brew update && brew upgrade
+brew cleanup --prune=all
+brew install dolphin
+brew install zen
+brew remove --zap zen
+brew remove --zap firefox
+clear
+brew install firefox
+brew remove --zap firefox
+clear
+brew update && brew upgrade
+clear
+brew install firefox
+brew remove --zap firefox
+brew cleanup
+brew cleanup --prune=all
+clear
+brew install firefox
+htop
+caffeinate -d
+htop
+brew remove --zap tor-browser
+brew cleanup
+caffeinate -d
+brew search asprite
+brew search aseprite
+brew info serie
+brew install gzdoom
+cd ~/Documents
+mkdir Games
+cd Games
+mkdir DOOM
+cd DOOM
+open .
+brew install unrar
+brew install rar
+brew remove --zap unrar
+brew remove --zap rar
+cot ~/.zshrc
+cd Downloads
+unrar brutalv21.rar
+brew search wacom
+brew info wacom-tablet
+cd /Library/Application\ Support/
+ll
+cd ..
+cd Preference
+cd Preferences
+ll
+cd ~/Library/Preferences/com.wacom
+cd ~/Library/Preferences
+ll
+brew remove --zap utm
+brew cleanup
+brew update
+brew upgrade
+brew cleanup
+brew install helium
+brew remove helium
+brew cleanup
+brew cleanup --zap
+brew search helium
+brew search helium-browser
+brew install helium-browser
+brew remove --zap helium
+brew remove --zap helium-browser
+brew cleanup
+brew update && brew upgrade
+steamcmd
+steamcmd
+/Applications/Steam.app/Contents/MacOS/steam_osx -console
+clear
+cd "/Users/olivia/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS\steamapps\content\app_2310\depot_2311"
+cd "/Users/olivia/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS\steamapps\content\app_2310\ 
+cd "/Users/olivia/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS\steamapps\content\app_2310"
+cd "/Users/olivia/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS\steamapps\content"
+cd "/Users/olivia/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS"
+ll
+cd steam
+cd ..
+cd steamapps
+ll
+cd content
+ll
+cd app_2310
+ll
+cd depot_2311
+ll
+open .
+/Applications/vkQuake.app -basedir "/Applications/Games/Quake"
+/Applications/vkQuake.app/Contents/MacOS/vkquake -basedir "/Applications/Games/Quake"
+cd /Applications/vkQuake.app
+ll
+cd Contents
+ll
+cd Resources
+ll
+cd ..
+htop
+htop
+brew install utm
+clear
+clear
+htop
+brew remove --zap utm
+brew cleanup
+caffeinate -d
+cd Downloads
+git clone https://github.com/GNOME/gnome-backgrounds
+open
+open .
+cd ~/Pictures/wallpapers
+ll
+open .
+cd ~/Downloads
+git clone https://github.com/KDE/plasma-workspace-wallpapers
+cd Downloads
+open .
+open ~/Pictures/wallpapers
+cd Downloads
+ll
+rm -rf bypass-paywalls-firefox-clean-master
+rm bypass-paywalls-firefox-clean-master.zip
+git clone https://gitflic.ru/project/magnolia1234/bpc_uploads
+git clone https://gitflic.ru/project/magnolia1234/bpc_uploads.git
+ll
+cd bpc_uploads
+ll
+open .
+brew install affinity
+brew install affinity
+brew update && brew upgrade
+brew remove --zap bitwig-studio
+brew install bitwig-studio
+touch /Applications/"Bitwig Studio.app"
+brew install bitwig-studio
+brew remove --zap bitwig-studio
+brew cleanup
+brew purge --prune=all
+brew cleanup --prune=all
+brew remove --zap obsidian
+brew cleanup
+brew install obsidian
+cd Downloads
+yt-dlp https://jp.spankbang.com/5vrh3/video/kaoru+kuroki+sm+movie+with+toru+munarishi
+ll
+nvim
+brew update
+brew upgrade
+brew install qbittorrent
+brew cleanup --zap qbittorrent
+brew remove --zap qbittorrent
+brew cleanup
+brew update
+brew ugrade
+brew upgrade
+clear
+brew install birdfont
+brew remove --zap birdfont
+brew install ardour
+brew install fontforge
+brew search ardour
+brew install --cask fontforge
+ll
+brew remove --zap fontforge
+brew remove --zap --cask fontforge-app
+brew cleanup
+ll
+brew install --cask blender
+htop
+htop
+brew install zen
+brew remove --zap zen
+clear
+brew update
+nvim
+brew remove --zap zen
+brew remove --zap affinity
+brew cleanup
+brew update && brew upgrade
+brew remove --zap blender onyx
+nvim
+brew install font-fira-code-nerd-font
+nvim
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+ls -al
+clear
+brew install zen-browser
+brew remove --zap zen
+clear
+brew cleanup
+brew search birdfont
+brew info birdfont
+brew install birdfont
+brew remove --zap birdfont
+clear
+brew cleanup
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+cd ~/
+rm -rf ~/.config/nvim
+nvim
+clear
+mkdir ~/.config/nvim
+cd ~/.config/nvim
+nvim init.lua
+mkdir lua
+cd lua
+mkdir config
+cd config
+nvim lazy.lua
+nvim
+ll
+cd pwd
+pwd
+cd ..
+mkdir plugins
+nvim plugins.lua
+nvim plugins.lua
+nvim
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/lua/config
+ll
+mv ~/.config/nvim/lua/plugins.lua ~/.config/nvim/lua/plugins/spec.lua
+ll
+cd ~/.config/nvim
+ll
+cd lua
+ll
+nvim
+nvim cofig
+nvim config
+nvim config
+brew update
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/lua/plugins/spec.lua
+nvim ~/.config/nvim/lua/plugins/spec.lua
+nvim ~/.config/nvim/lua/plugins/spec.lua
+nvim ~/.config/nvim/lua/plugins/spec.lua
+nvim ~/.config/nvim/lua/plugins/spec.lua
+nvim ~/.config/nvim/lua/plugins/spec.lua
+nvim ~/.config/nvim/lua/plugins/spec.lua
+nvim ~/.config/nvim/lua/plugins/spec.lua
+nvim ~/.config/nvim/lua/plugins/spec.lua
+nvim ~/.config/nvim/lua/plugins/spec.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim config/lazy.lua
+nvim plugins/spec.lua
+nvim plugins/spec.lua
+nvim config/lazy.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim config/lazy.lua
+nvim plugins/spec.lua
+nvim plugins/spec.lua
+nvim ~/.config/nvim/init.lua
+nvim config/lazy.lua
+nvim config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/plugins
+nvim
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+clear
+brew install zen-browser
+brew remove --zap zen
+brew install signal
+brew install zen-browser
+cd Downloads
+wget https://gitflic.ru/project/magnolia1234/bpc_uploads
+ll
+git clone https://gitflic.ru/project/magnolia1234/bpc_uploads
+rm -rf bpc_uploads
+git clone https://gitflic.ru/project/magnolia1234/bpc_uploads
+https://gitflic.ru/project/magnolia1234/bpc_uploads.git
+git clone https://gitflic.ru/project/magnolia1234/bpc_uploads.git
+cd bpc_uploads
+ll
+brew update
+brew upgrade
+brew install firefox
+brew remove --zap firefox
+brew cleanup
+sudo mdutil -E /
+sudo mdutil -a -i off
+sudo mdutil -a -i on
+brew info firefox
+brew install firefox
+brew remove --zap firefox
+brew cleanup
+brew cleanup --prune=all
+brew install firefox
+caffeinate -d
+htop
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim
+nvim
+brew remove --zap firefox
+brew cleanup
+brew update && brew upgrade
+brew install firefox
+brew remove --zap firefox
+htop
+git clone https://github.com/catppuccin/iterm.git
+ls
+mv iterm ~/Downloads
+ll
+cd Downloads
+ll
+nvim iterm
+clear
+clear
+nvim 
+nvim
+nvim
+nvim
+fastfetch
+clear
+nvim
+nvim ~/.config/nvim/init.lua 
+nvim ~/.config/nvim/lua/plugins/spec.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+brew install mole
+brew update
+brew upgrade
+man mole
+mo
+mo
+brew install firefox
+nvim
+htop
+brew remove --zap zen-browser
+brew cleanup
+brew prune --dry-run
+brew cleanup --prune=all --dry-run
+brew cleanup --prune=all
+diskutil free
+clear
+fastfetch
+fastfetch
+brew search font-cascadia
+brew info font-cascadia-code-nf
+brew search caskaydia-cove
+brew install font-caskadyia-cove-nerd-font
+brew install font-caskaydia-cove-nerd-font
+nvim
+nvim ~/.config/nvim/lua/plugins/spec.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+pwd
+brew installl --cask mpv
+clear
+ll
+brew search font-suse-mono-nerd-font
+clear
+ls -al
+nvim
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+cd ..
+brew search kodi
+brew install --cask kodi
+brew install font-blex-mono-nerd-font
+clear
+nvim
+nvim ~/.config/nvim/lua/config/lazy.lua
+htop
+clear
+nvim ~/.zshrc
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+brew search utm
+brew install --cask utm
+brew upgrade
+htop
+uptime
+brew search firefox
+brew install firefox@nightly
+brew remove --zap firefox@nightly
+brew upgrade
+brew update
+brew remove --zap discord
+brew install discord
+brew info surge-xt
+brew remove --zap kodi
+brew remove --zap paulxstretch
+brew info paulxstretch
+brew info vital
+clear
+brew remove --zap utm
+brew install utm
+]brew upgrade
+brew upgrade
+htop
+brew install --cask mpv
+clear
+brew search mpv
+mpv
+mpv \[SubsPlease\]\ NEEDY\ GIRL\ OVERDOSE\ -\ 01\ \(1080p\)\ \[034F401D\].mkv
+cd Downloads
+tar -xfv mpv-arm64-0.40.0.tar.gz
+tar xfv mpv-arm64-0.40.0.tar.gz
+ll
+brew install font-overpass-nerd-font
+ll
+brew update && brew upgrade
+brew update
+brew upgrade
+brew search retroarch
+brew info retroarch-metal
+brew info retroarch
+brew install retroarch-metal
+htop
+brew install affinity
+brew install surfshark
+htop
+dir
+pwd
+diskutil List
+sudo dd if=/Users/olivia/Downloads/enosLinuxARM-rpi4-latest.img.xz
+dd
+man dd
+clear
+ll
+sudo dd if=/Users/olivia/Downloads/enosLinuxARM-rpi4-latest.img.xz of=/dev/disk5 status=progress bs=4m
+umount /dev/disk5
+sudo dd if=/Users/olivia/Downloads/enosLinuxARM-rpi4-latest.img.xz of=/dev/disk5 status=progress bs=4m
+sudo dd if=/Users/olivia/Downloads/enosLinuxARM-rpi4-latest.img.xz of=/dev/disk5 status=progress bs=4m
+sudo dd if=/Users/olivia/Downloads/enosLinuxARM-rpi4-latest.img.xz of=/dev/disk5 status=progress bs=4m
+sudo dd if=/Users/olivia/Downloads/enosLinuxARM-rpi4-latest.img.xz of=/dev/disk5 status=progress bs=4m
+nvim ~/.zshrc
+lsblk
+sudo dd if=/Users/olivia/Downloads/enosLinuxARM-rpi4-latest.img.xz of=/dev/disk5 status=progress bs=4m
+umount /dev/disk5
+lsblk
+lsblk
+umount /dev/disk5
+sudo dd if=/Users/olivia/Downloads/enosLinuxARM-rpi4-latest.img.xz of=/dev/disk4 status=progress bs=4m
+umount /dev/disk4
+brew install balena-cli
+man bc
+balena 
+man balena
+brew remove --zap balena-cli
+brew upgrade
+brew install balenaetcher
+sudo dd if=/Users/olivia/Downloads/enosLinuxARM-rpi4-latest.img.xz of=/dev/disk4 bs=4m status=progress
+brew remove --zap balenaetcher
+cd Documents
+brew update
+brew upgrade
+nvim
+sudo mas update
+brew install iina
+cd ~/.config/mpv
+ll
+nvim mpv.conf
+mpv
+mpv /Users/olivia/Library/Mobile\ Documents/com\~apple\~CloudDocs/Media/Anime/Shows/NEEDY\ GIRL\ OVERDOSE/\[SubsPlease\]\ NEEDY\ GIRL\ OVERDOSE\ -\ 02\ \(1080p\)\ \[4FCAA802\].mkv 
+man mpv
+mpv /Users/olivia/Library/Mobile\ Documents/com\~apple\~CloudDocs/Media/Anime/Shows/NEEDY\ GIRL\ OVERDOSE/\[SubsPlease\]\ NEEDY\ GIRL\ OVERDOSE\ -\ 02\ \(1080p\)\ \[4FCAA802\].mkv 
+cd ~/.config/mpv
+nvim mpv.conf
+mpv /Users/olivia/Library/Mobile\ Documents/com\~apple\~CloudDocs/Media/Anime/Shows/NEEDY\ GIRL\ OVERDOSE/\[SubsPlease\]\ NEEDY\ GIRL\ OVERDOSE\ -\ 02\ \(1080p\)\ \[4FCAA802\].mkv 
+nvim mpv.conf
+mpv /Users/olivia/Library/Mobile\ Documents/com\~apple\~CloudDocs/Media/Anime/Shows/NEEDY\ GIRL\ OVERDOSE/\[SubsPlease\]\ NEEDY\ GIRL\ OVERDOSE\ -\ 02\ \(1080p\)\ \[4FCAA802\].mkv 
+nvim mpv.conf
+mpv /Users/olivia/Library/Mobile\ Documents/com\~apple\~CloudDocs/Media/Anime/Shows/NEEDY\ GIRL\ OVERDOSE/\[SubsPlease\]\ NEEDY\ GIRL\ OVERDOSE\ -\ 02\ \(1080p\)\ \[4FCAA802\].mkv 
+nvim mpv.conf
+mpv /Users/olivia/Library/Mobile\ Documents/com\~apple\~CloudDocs/Media/Anime/Shows/NEEDY\ GIRL\ OVERDOSE/\[SubsPlease\]\ NEEDY\ GIRL\ OVERDOSE\ -\ 02\ \(1080p\)\ \[4FCAA802\].mkv 
+nvim mpv.conf
+brew update
+brew upgrade
+brew update
+brew upgrade
+htop
+brew install utm
+man mole
+htop
+brew remove --zap discord
+brew install discord
+brew install krita
+brew search xppen-pentablet
+brew info xppen-pentablet
+cd Downloads
+git clone https://github.com/KDE/plasma-workspace-wallpapers.git
+ll
+cd plasma-workspace-wallpapers
+open .
+lsblk
+umount /dev/disk4
+cd Donwloads
+cd Downloads
+ll
+lsblk
+umount /dev/disk4
+sudo umount /dev/disk4
+diskutil umount /dev/disk4
+lsblk
+sudo dd if=/Users/olivia/Downloads/Fedora-KDE-Desktop-Live-44-1.7.x86_64.iso of=/dev/disk4 bs=4m status=progress
+lsblk
+diskutil umount /dev/disk4
+diskutil unmountDisk /dev/disk4
+brew remove --zap utm
+mole clean
+mole clean --dry-run
+brew install caskaydia-cove-nerd-font
+brew install font-caskaydia-cove-nerd-font
+htop
+mole clean --dry-run
+mole clean
+nvim ~/.config/nvim/
+nvim ~/.config/nvim/
+nvim ~/.config/nvim/
+nvim ~/.zshrc
+nvim ~/.zshrc
+cd ~/.config/nvim/
+ll
+git init
+ll
+git config --global user.name "Livi"
+git config --global user.email "olivia.pelley@icloud.com"
+git add .
+git commit -m "Initial commit"
+git status
+ll
+cd .git
+ll
+nvim config
+nvim index
+nvim hooks
+cd info
+ll
+cd ..
+nvim config
+clear
+rm -rf .git
+clear
+cd ..
+ll
+rm -rf .git
+ll
+clear
+cd ~
+ll
+mkdir git
+cd git
+ll
+git clone https://github.com/peachesandgravy/dotfiles.git
+ll
+cd dotfiles
+ll
+git remote add upstream git@github.com:peachezngravy/dotfiles.git
+ll
+ln -s /Users/olivia/.config/nvim/* .
+ll
+mkdir nvim
+mv init.lua nvim
+mv lazy-lock.json nvim
+mv lua nvim
+ll
+cd nvim
+ll
+cd ..
+mkdir zsh
+ln -s /Users/olivia/.zshrc ./zsh/.zshrc
+ll
+cd zsh
+ll
+nvim .zshrc
+git config --global user.name "Livi"
+git config --global user.email "olivia.pelley@icloud.com"
+cd ..
+ll
+git add .
+git commit -m "Init"
+git status
+git push
+git push
+git push
+git push
+git remote add upstream git@github.com:peachesngravy/dotfiles.git
+git checkout -b master
+git branch
+git checkout master
+ll
+git branch
+git checkout main
+git push -u origin main
+ssh-keygen -t ed25519 -C "olivia.pelley@icloud.com"
+nvim
+ll
+cd zsh
+ll
+mv .zshrc zshrc
+ll
+cd ..
+git checkout main
+git add .
+git commit -m "Initial commit"
+eval "$(ssh-agent -s)"
+nvim ~/.ssh/config
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+git push -u origin main
+ssh -T git@github.com
+pbcopy < ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+git push -u origin main
+nvim .git
+ll
+ssh-keygen -p -f ~/.ssh/id_ed25519
+git add .
+git commit
+git push
+git push
+nvim
+cd git/dotfiles
+ll
+git push
+git remote set-url origin git@github.com:peachesandgravy/dotfiles.git
+ssh -T git@github.com
+git push .
+git push
+clear
+ll
+rm -rf nvim
+rm -rf zsh
+mkdir nvim
+mkdir zsh
+cp ~/.config/nvim/. ~/.config/nvim
+cp ~/.config/nvim/. ~/.config/nvim.
+cp ~/.config/nvim/. .
+ll
+rm -rf nvim
+rm -rf zsh
+ll
+cp ~/.config/nvim/. .
+ll
+cp -r ~/.config/nvim/. .
+mkdir zsh
+cd zsh
+cp ~/.zshrc ./zshrc
+ll
+nvim zshrc
+cd ..
+git commit
+git add .
+git commit
+git commit -m "v2"
+git push
+ll
+mkdir nvim
+mv init.lua nvim
+mv lazy-lock.json nvim
+mv -r lua nvim
+mv lua nvim
+ll
+cd nvim
+ll
+cd ..
+git commit -m v3
+git commit -m "v3"
+git add .
+git commit -m "v3"
+git push
+fastfetch
+ll
+nvim
+clear
+brew update
+brew outdated
+brew upgrade
+ll
+clear
+ll
+cd Downloads
+magick giphy-downsized_s.gif literally_me.jpg
+nvim
+nvim
+nvim
+htop
+ls -al
+nvim ~/.zshrc
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+cd ~/git/dotfiles
+ll
+cd nvim
+ll
+cd ..
+rm -rf nvim
+cp ~/.config/nvim .
+cp -r ~/.config/nvim .
+ll
+git commit "added transparent background and highlighting"
+git commit nvim
+git push
+ll
+clear
+mkdir .hidden
+mv ~/Downloads/2892ac-01963692-9bfd-7401-a749-922a6aae7438.mp4 .hidden
+mv ~/Downloads/2892ac-0196ef90-3e35-7d27-b223-dc4c12181f13.mp4 .hidden
+mv ~/Downloads/2892ac-01970ef0-d194-736f-994e-4e188b445ff7.mp4 .hidden
+cd .hidden
+ll
+nvim 
+nvim 
+cd ~/.hidden
+ll
+mpv 2892ac-01963692-9bfd-7401-a749-922a6aae7438.mp4
+mpv 2892ac-01970ef0-d194-736f-994e-4e188b445ff7.mp4
+mpv 2892ac-01963692-9bfd-7401-a749-922a6aae7438.mp4
+ll
+clear
+brew install font-victor-mono-nerd-font
+ll
+fastfetch
+brew remove --zap steam
+clear
+brew clean --prune=all
+brew purge --prune=all
+brew remove --prune=all
+brew --cache
+ll /Users/olivia/Library/Caches/Homebrew
+brew cleanup --prune=all
+clear
+df -h
+fastfetch
+brew install font-victor-mono
+brew search suse
+brew search --installed
+brew list --installed
+brew list
+ll
+ cd /Users/olivia/.hidden
+clear
+ll
+brew install kitty
+brew list runcat
+brew list run-cat
+mas search runcat
+mas info 6757801838
+brew search runcat-neo
+mas install 6757801838
+clear
+mas update
+brew remove --zap retroarch
+brew remove --zap retroarch-metal
+clear
+brew cleanup
+brew update && brew upgrade
+clear
+brew update
+brew upgrade
+brew list
+brew remove font-blex-mono-nerd-font font-fira-code-nerd-font font-overpass-nerd-font discord gzdoom iina
+brew cleanup
+clear
+df -h
+brew cleanup
+brew cleanup --prune=all
+sudo pacman -S libcaca
+brew install libcaca
+brew unlink libcaca
+brew install libcaca
+clear
+brew update
+cd ~/Applications
+ll
+rm Discord.app
+rm -rf Discord.app
+rm -rf Snapchat.app
+clear
+clear
+brew install --cask betterdisplay
+open
+kitty
+nvim ~/.config/kitty/kitty.conf
+brew install zen-browser
+clear
+nvim kitty.conf
+ll
+clear
+ll
+nvim kitty.conf
+rm -rf kitty.conf
+nvim ~/.config/kitty/kitty.conf
+nvim ~/.config/kitty/kitty.conf
+man kitty
+brew install skhd
+brew install skhd-port
+clear
+brew install asmvik/formulae/skhd
+clear
+nvim ~/.config/kitty/kitty.conf
+nvim ~/.config/kitty/kitty.conf
+nvim ~/.config/kitty/kitty.conf
+exit
+ll
+clear
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.zshrc
+clear
+nvim ~/.zshrc
+nvim ~/.zshrc
+nvim ~/.config/nvim/lua/config/lazy.lua
+lazyrc
+nvim ~/.config/nvim/lua/config/lazy.lua
+nvim ~/.zshrc
+touch .zaliases
+exit
+ll
+fastfetch
+nvim ~/.zshrc
+nvim ~/.zshrc
+which zsh
+ll

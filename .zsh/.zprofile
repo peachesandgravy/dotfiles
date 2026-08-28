@@ -1,6 +1,6 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-export TERMINAL='iterm'
+export TERMINAL='open -a /Applications/iTerm.app'
 export EDITOR='nvim'
 export BROWSER='zen'
 
